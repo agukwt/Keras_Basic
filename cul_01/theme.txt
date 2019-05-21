@@ -1,0 +1,17 @@
+Cul.01のテーマ
+「MNISTでのDNNを構築する」
+
+ステップ1：
+    データ: MNIST
+
+    モデル実行：
+        ロス関数：categorical_crossentropy
+        最適化関数：任意(Adam(lr=0.01, beta_1=0.9, beta_2=0.999)推奨)
+        コールバック：任意
+
+    モデル評価：
+         loss および accuracy を表示するplotを実装せよ。
+
+
+
+
